@@ -11,7 +11,7 @@
 local G2L = {};
 
 -- StarterGui.AtomicMAIN
-G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"] = Instance.new("ScreenGui", game.CoreGui);
 G2L["1"]["IgnoreGuiInset"] = true;
 G2L["1"]["AutoLocalize"] = false;
 G2L["1"]["ScreenInsets"] = Enum.ScreenInsets.DeviceSafeInsets;
@@ -1241,7 +1241,7 @@ G2L["a5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a5"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
 G2L["a5"]["BackgroundTransparency"] = 1;
-G2L["a5"]["PlaceholderText"] = "[cmd [false]";
+G2L["a5"]["PlaceholderText"] = "cmd [false]";
 G2L["a5"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["a5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["a5"]["Text"] = [[]];
@@ -1717,55 +1717,55 @@ G2L["e0"]["Size"] = UDim2.new(0.7128294706344604, 0, 1, 0);
 G2L["e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["e0"]["BackgroundTransparency"] = 1;
 
--- StarterGui.AtomicMAIN.UI.Code.Tabs.Tabs.Tab0.Selection
-G2L["e1"] = Instance.new("LocalScript", G2L["d7"]);
-G2L["e1"]["Name"] = [[Selection]];
-
 -- StarterGui.AtomicMAIN.UI.Code.Tabs.Tabs.UIPadding
-G2L["e2"] = Instance.new("UIPadding", G2L["d6"]);
-G2L["e2"]["PaddingLeft"] = UDim.new(0, 8);
+G2L["e1"] = Instance.new("UIPadding", G2L["d6"]);
+G2L["e1"]["PaddingLeft"] = UDim.new(0, 8);
 
 -- StarterGui.AtomicMAIN.UI.Code.Tabs.Tabs.UIListLayout
-G2L["e3"] = Instance.new("UIListLayout", G2L["d6"]);
-G2L["e3"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
-G2L["e3"]["FillDirection"] = Enum.FillDirection.Horizontal;
-G2L["e3"]["Padding"] = UDim.new(0, 6);
-G2L["e3"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["e2"] = Instance.new("UIListLayout", G2L["d6"]);
+G2L["e2"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+G2L["e2"]["FillDirection"] = Enum.FillDirection.Horizontal;
+G2L["e2"]["Padding"] = UDim.new(0, 6);
+G2L["e2"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 -- StarterGui.AtomicMAIN.UI.Code.Tabs.Tabs.Add
-G2L["e4"] = Instance.new("Frame", G2L["d6"]);
-G2L["e4"]["BorderSizePixel"] = 0;
-G2L["e4"]["BackgroundColor3"] = Color3.fromRGB(8, 8, 8);
-G2L["e4"]["Size"] = UDim2.new(0, 27, 0, 27);
-G2L["e4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e4"]["Name"] = [[Add]];
+G2L["e3"] = Instance.new("Frame", G2L["d6"]);
+G2L["e3"]["BorderSizePixel"] = 0;
+G2L["e3"]["BackgroundColor3"] = Color3.fromRGB(8, 8, 8);
+G2L["e3"]["Size"] = UDim2.new(0, 27, 0, 27);
+G2L["e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e3"]["Name"] = [[Add]];
 
 -- StarterGui.AtomicMAIN.UI.Code.Tabs.Tabs.Add.UICorner
-G2L["e5"] = Instance.new("UICorner", G2L["e4"]);
+G2L["e4"] = Instance.new("UICorner", G2L["e3"]);
 
 
 -- StarterGui.AtomicMAIN.UI.Code.Tabs.Tabs.Add.ImageLabel
-G2L["e6"] = Instance.new("ImageLabel", G2L["e4"]);
-G2L["e6"]["BorderSizePixel"] = 0;
-G2L["e6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["e6"]["Image"] = [[rbxassetid://7072720870]];
-G2L["e6"]["Size"] = UDim2.new(0.699999988079071, 0, 0.699999988079071, 0);
-G2L["e6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e6"]["BackgroundTransparency"] = 1;
-G2L["e6"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["e5"] = Instance.new("ImageLabel", G2L["e3"]);
+G2L["e5"]["BorderSizePixel"] = 0;
+G2L["e5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e5"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["e5"]["Image"] = [[rbxassetid://7072720870]];
+G2L["e5"]["Size"] = UDim2.new(0.699999988079071, 0, 0.699999988079071, 0);
+G2L["e5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e5"]["BackgroundTransparency"] = 1;
+G2L["e5"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 -- StarterGui.AtomicMAIN.UI.Code.Tabs.Tabs.Add.ImageButton
-G2L["e7"] = Instance.new("ImageButton", G2L["e4"]);
-G2L["e7"]["BorderSizePixel"] = 0;
-G2L["e7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e7"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["e7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e7"]["BackgroundTransparency"] = 1;
+G2L["e6"] = Instance.new("ImageButton", G2L["e3"]);
+G2L["e6"]["BorderSizePixel"] = 0;
+G2L["e6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e6"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["e6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e6"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.AtomicMAIN.UI.Code.TabsHandler
-G2L["e8"] = Instance.new("LocalScript", G2L["b7"]);
-G2L["e8"]["Name"] = [[TabsHandler]];
+G2L["e7"] = Instance.new("LocalScript", G2L["b7"]);
+G2L["e7"]["Name"] = [[TabsHandler]];
+
+-- StarterGui.AtomicMAIN.LocalScript
+G2L["e8"] = Instance.new("LocalScript", G2L["1"]);
+
 
 -- Require G2L wrapper
 local G2L_REQUIRE = require;
@@ -1812,7 +1812,7 @@ G2L_MODULES[G2L["74"]] = {
 Closure = function()
     local script = G2L["74"];
 local scripts = {
-	["InfiniteYield"] = loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	["InfiniteYield"] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()"
 }
 
 local function load(pcall)
@@ -2672,9 +2672,9 @@ local function run_lua_func(state, env, upvals)
 				local limit = memory[A + 1]
 				local loops
 
-						if step == math.abs(step) then
-							loops = index <= limit
-						else
+				if step == math.abs(step) then
+					loops = index <= limit
+				else
 							loops = index >= limit
 						end
 
@@ -5698,7 +5698,7 @@ CLOSE CLOSURE VARARG
 			end
 		end
 
---[[--------------------------------------------------------------------
+		--[[--------------------------------------------------------------------
 -- parser functions
 ----------------------------------------------------------------------]]
 
@@ -7619,13 +7619,11 @@ task.spawn(C_5c);
 -- StarterGui.AtomicMAIN.UI.Home.Scripts.ScriptsHandler
 local function C_71()
 	local script = G2L["71"];
-	local scripts = require(script:FindFirstAncestor("UI").Assets.Scripts)
+	--local scripts = require(script:FindFirstAncestor("UI").Assets.Scripts)
 
-	for i,v in pairs(script.Parent.Scripts:GetChildren()) do
-		v.ImageButton.ImageButton.MouseButton1Click:Connect(function()
-			scripts:Fire(v.Parent.Name)
-		end)
-	end
+	script.Parent.Scripts.InfiniteYield.ImageButton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
 end;
 task.spawn(C_71);
 -- StarterGui.AtomicMAIN.UI.MacroFrame.MacroHandler
@@ -8086,24 +8084,9 @@ local function C_d0()
 	end)
 end;
 task.spawn(C_d0);
--- StarterGui.AtomicMAIN.UI.Code.Tabs.Tabs.Tab0.Selection
-local function C_e1()
-	local script = G2L["e1"];
-	script.Parent.ImageButton.MouseButton1Click:Connect(function()
-		for i,v in pairs(script.Parent.Parent:GetChildren()) do
-			if v:IsA("Frame") and v:FindFirstChild("TextLabel") then
-				if v==script.Parent then
-					v.TextLabel.TextColor3 = Color3.fromRGB(255,255,255)
-				else v.TextLabel.TextColor3 = Color3.fromRGB(74, 74, 74)
-				end
-			end
-		end
-	end)
-end;
-task.spawn(C_e1);
 -- StarterGui.AtomicMAIN.UI.Code.TabsHandler
-local function C_e8()
-	local script = G2L["e8"];
+local function C_e7()
+	local script = G2L["e7"];
 	local tabs = 0
 	local currentTab = "Tab0"
 	local function NewTab()
@@ -8146,6 +8129,16 @@ local function C_e8()
 			currentTab=newtab.Name
 			script.Parent.CodeArea.CodeArea.Con.Value = currentTab 
 			script.Parent.CodeArea.CodeArea.Source.Text = newtab.Content.Value
+
+			for i,v in pairs(script.Parent.Tabs.Tabs:GetChildren()) do
+				if v:IsA("Frame") and v:FindFirstChild("TextLabel") then
+					if v==newtab then
+						v.TextLabel.TextColor3 = Color3.fromRGB(255,255,255)
+					else v.TextLabel.TextColor3 = Color3.fromRGB(74, 74, 74)
+					end
+				end
+			end
+
 		end)
 		local newadd = add:Clone()
 		newadd.Parent=add.Parent
@@ -8166,6 +8159,62 @@ local function C_e8()
 			end
 		end
 	end)
+end;
+task.spawn(C_e7);
+-- StarterGui.AtomicMAIN.LocalScript
+local function C_e8()
+	local script = G2L["e8"];
+	wait(2)
+	-- Instances: 7 | Scripts: 0 | Modules: 0
+	local G2L = {};
+
+	-- StarterGui.ScreenGui.TriggerPoint
+	G2L["2"] = Instance.new("Frame", game.CoreGui:WaitForChild("TopBarApp").UnibarLeftFrame.StackedElements);
+	G2L["2"]["BackgroundTransparency"] = 1;
+	G2L["2"]["LayoutOrder"] = 1;
+	G2L["2"]["Size"] = UDim2.new(0, 44, 1, 0);
+	G2L["2"]["Name"] = [[TriggerPoint]];
+
+	-- StarterGui.ScreenGui.TriggerPoint.Background
+	G2L["3"] = Instance.new("ImageButton", G2L["2"]);
+	G2L["3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+	G2L["3"]["AnchorPoint"] = Vector2.new(0, 0.5);
+	G2L["3"]["Size"] = UDim2.new(0, 44, 0, 44);
+	G2L["3"]["Name"] = [[Background]];
+	G2L["3"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+	G2L["3"]["BackgroundTransparency"] = 0.30000001192092896;
+	G2L["3"].MouseButton1Click:Connect(function()
+		game.CoreGui:WaitForChild("AtomicMAIN").Enabled = not game.CoreGui:WaitForChild("AtomicMAIN"):WaitForChild("AtomicMAIN").Enabled
+	end)
+
+	-- StarterGui.ScreenGui.TriggerPoint.Background.ScalingIcon
+	G2L["4"] = Instance.new("ImageLabel", G2L["3"]);
+	G2L["4"]["ScaleType"] = Enum.ScaleType.Fit;
+	G2L["4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+	G2L["4"]["Image"] = [[rbxassetid://16610651021]];
+	G2L["4"]["Size"] = UDim2.new(0, 24, 0, 24);
+	G2L["4"]["Name"] = [[ScalingIcon]];
+	G2L["4"]["BackgroundTransparency"] = 1;
+	G2L["4"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+	-- StarterGui.ScreenGui.TriggerPoint.Background.UICorner
+	G2L["5"] = Instance.new("UICorner", G2L["3"]);
+	G2L["5"]["CornerRadius"] = UDim.new(1, 0);
+
+	-- StarterGui.ScreenGui.TriggerPoint.Background.StateOverlayRound
+	G2L["6"] = Instance.new("Frame", G2L["3"]);
+	G2L["6"]["ZIndex"] = 2;
+	G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+	G2L["6"]["BackgroundTransparency"] = 1;
+	G2L["6"]["Size"] = UDim2.new(1, 0, 1, 0);
+	G2L["6"]["Name"] = [[StateOverlayRound]];
+
+	-- StarterGui.ScreenGui.TriggerPoint.Background.StateOverlayRound.UICorner
+	G2L["7"] = Instance.new("UICorner", G2L["6"]);
+	G2L["7"]["CornerRadius"] = UDim.new(1, 0);
+
+
+	return G2L["1"], require;
 end;
 task.spawn(C_e8);
 
