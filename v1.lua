@@ -8184,7 +8184,7 @@ local function C_e8()
 	G2L["3"]["Position"] = UDim2.new(0, 0, 0.5, 0);
 	G2L["3"]["BackgroundTransparency"] = 0.30000001192092896;
 	G2L["3"].MouseButton1Click:Connect(function()
-		G2L["1"].Enabled = not G2L["1"].Enabled
+		G2L["2"].Visible = not G2L["2"].Visible
     end)
 
 	-- StarterGui.ScreenGui.TriggerPoint.Background.ScalingIcon
