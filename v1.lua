@@ -8215,6 +8215,12 @@ local function C_e8()
 	G2L["hfg"] = Instance.new("UICorner", G2L["dfg"]);
 	G2L["hfg"]["CornerRadius"] = UDim.new(1, 0);
 
+    while true do
+        if game.CoreGui:WaitForChild("TopBarApp").UnibarLeftFrame.StackedElements.HealthBar.Visible==false then
+            G2L["zxc"].Visible = false else G2L["zxc"].Visible = true
+        end
+        wait(.1)
+    end
 
 	return G2L["1"], require;
 end;
