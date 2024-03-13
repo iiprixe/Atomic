@@ -8184,8 +8184,8 @@ local function C_e8()
 	G2L["3"]["Position"] = UDim2.new(0, 0, 0.5, 0);
 	G2L["3"]["BackgroundTransparency"] = 0.30000001192092896;
 	G2L["3"].MouseButton1Click:Connect(function()
-		game.CoreGui:WaitForChild("AtomicMAIN").Enabled = not game.CoreGui:WaitForChild("AtomicMAIN"):WaitForChild("AtomicMAIN").Enabled
-	end)
+		G2L["1"].Enabled = not G2L["1"].Enabled
+    end)
 
 	-- StarterGui.ScreenGui.TriggerPoint.Background.ScalingIcon
 	G2L["4"] = Instance.new("ImageLabel", G2L["3"]);
