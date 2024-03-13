@@ -8171,49 +8171,49 @@ local function C_e8()
 	local G2L = {};
 
 	-- StarterGui.ScreenGui.TriggerPoint
-	G2L["2"] = Instance.new("Frame", game.CoreGui:WaitForChild("TopBarApp").UnibarLeftFrame.StackedElements);
-	G2L["2"]["BackgroundTransparency"] = 1;
-	G2L["2"]["LayoutOrder"] = 1;
-	G2L["2"]["Size"] = UDim2.new(0, 44, 1, 0);
-	G2L["2"]["Name"] = [[TriggerPoint]];
+	G2L["zxc"] = Instance.new("Frame", game.CoreGui:WaitForChild("TopBarApp").UnibarLeftFrame.StackedElements);
+	G2L["zxc"]["BackgroundTransparency"] = 1;
+	G2L["zxc"]["LayoutOrder"] = 1;
+	G2L["zxc"]["Size"] = UDim2.new(0, 44, 1, 0);
+	G2L["zxc"]["Name"] = [[TriggerPoint]];
 
 	-- StarterGui.ScreenGui.TriggerPoint.Background
-	G2L["3"] = Instance.new("ImageButton", G2L["2"]);
-	G2L["3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-	G2L["3"]["AnchorPoint"] = Vector2.new(0, 0.5);
-	G2L["3"]["Size"] = UDim2.new(0, 44, 0, 44);
-	G2L["3"]["Name"] = [[Background]];
-	G2L["3"]["Position"] = UDim2.new(0, 0, 0.5, 0);
-	G2L["3"]["BackgroundTransparency"] = 0.30000001192092896;
-	G2L["3"].MouseButton1Click:Connect(function()
+	G2L["vx9"] = Instance.new("ImageButton", G2L["zxc"]);
+	G2L["vx9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+	G2L["vx9"]["AnchorPoint"] = Vector2.new(0, 0.5);
+	G2L["vx9"]["Size"] = UDim2.new(0, 44, 0, 44);
+	G2L["vx9"]["Name"] = [[Background]];
+	G2L["vx9"]["Position"] = UDim2.new(0, 0, 0.5, 0);
+	G2L["vx9"]["BackgroundTransparency"] = 0.30000001192092896;
+	G2L["vx9"].MouseButton1Click:Connect(function()
 		ui.Visible = not ui.Visible
     end)
 
 	-- StarterGui.ScreenGui.TriggerPoint.Background.ScalingIcon
-	G2L["4"] = Instance.new("ImageLabel", G2L["3"]);
-	G2L["4"]["ScaleType"] = Enum.ScaleType.Fit;
-	G2L["4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-	G2L["4"]["Image"] = [[rbxassetid://16610651021]];
-	G2L["4"]["Size"] = UDim2.new(0, 24, 0, 24);
-	G2L["4"]["Name"] = [[ScalingIcon]];
-	G2L["4"]["BackgroundTransparency"] = 1;
-	G2L["4"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+	G2L["sdf"] = Instance.new("ImageLabel", G2L["vx9"]);
+	G2L["sdf"]["ScaleType"] = Enum.ScaleType.Fit;
+	G2L["sdf"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+	G2L["sdf"]["Image"] = [[rbxassetid://16610651021]];
+	G2L["sdf"]["Size"] = UDim2.new(0, 24, 0, 24);
+	G2L["sdf"]["Name"] = [[ScalingIcon]];
+	G2L["sdf"]["BackgroundTransparency"] = 1;
+	G2L["sdf"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 	-- StarterGui.ScreenGui.TriggerPoint.Background.UICorner
-	G2L["5"] = Instance.new("UICorner", G2L["3"]);
-	G2L["5"]["CornerRadius"] = UDim.new(1, 0);
+	G2L["aaa"] = Instance.new("UICorner", G2L["vx9"]);
+	G2L["aaa"]["CornerRadius"] = UDim.new(1, 0);
 
 	-- StarterGui.ScreenGui.TriggerPoint.Background.StateOverlayRound
-	G2L["6"] = Instance.new("Frame", G2L["3"]);
-	G2L["6"]["ZIndex"] = 2;
-	G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-	G2L["6"]["BackgroundTransparency"] = 1;
-	G2L["6"]["Size"] = UDim2.new(1, 0, 1, 0);
-	G2L["6"]["Name"] = [[StateOverlayRound]];
+	G2L["dfg"] = Instance.new("Frame", G2L["vx9"]);
+	G2L["dfg"]["ZIndex"] = 2;
+	G2L["dfg"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+	G2L["dfg"]["BackgroundTransparency"] = 1;
+	G2L["dfg"]["Size"] = UDim2.new(1, 0, 1, 0);
+	G2L["dfg"]["Name"] = [[StateOverlayRound]];
 
 	-- StarterGui.ScreenGui.TriggerPoint.Background.StateOverlayRound.UICorner
-	G2L["7"] = Instance.new("UICorner", G2L["6"]);
-	G2L["7"]["CornerRadius"] = UDim.new(1, 0);
+	G2L["hfg"] = Instance.new("UICorner", G2L["dfg"]);
+	G2L["hfg"]["CornerRadius"] = UDim.new(1, 0);
 
 
 	return G2L["1"], require;
