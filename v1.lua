@@ -29,6 +29,8 @@ G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 G2L["2"]["Name"] = [[UI]];
 
+local ui = G2L["2"]
+
 -- StarterGui.AtomicMAIN.UI.Logo
 G2L["3"] = Instance.new("Frame", G2L["2"]);
 G2L["3"]["BorderSizePixel"] = 0;
@@ -8184,7 +8186,7 @@ local function C_e8()
 	G2L["3"]["Position"] = UDim2.new(0, 0, 0.5, 0);
 	G2L["3"]["BackgroundTransparency"] = 0.30000001192092896;
 	G2L["3"].MouseButton1Click:Connect(function()
-		G2L["2"].Visible = not G2L["2"].Visible
+		ui.Visible = not ui.Visible
     end)
 
 	-- StarterGui.ScreenGui.TriggerPoint.Background.ScalingIcon
